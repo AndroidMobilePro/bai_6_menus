@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/save"
+        android:title="@string/action_settings"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_search"
+                android:icon="@drawable/search"
+                android:orderInCategory="2"
+                android:title="Search" />
+
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/share"
+                android:orderInCategory="3"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/menu_delete"
+                android:icon="@drawable/delete"
+                android:orderInCategory="4"
+                android:title="Delete" />
+
+            <item
+                android:id="@+id/menu_preferences"
+                android:icon="@drawable/preferences"
+                android:orderInCategory="5"
+                android:title="Preferences" />
+        </menu>
+    </item>
+
+</menu>

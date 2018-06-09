@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnRed"
+        android:orderInCategory="100"
+        android:title="Red" />
+
+    <item
+        android:id="@+id/mnGreen"
+        android:orderInCategory="100"
+        android:title="Green" />
+    <item
+        android:id="@+id/mnBlue"
+        android:orderInCategory="100"
+        android:title="Blue" />
+
+</menu>
